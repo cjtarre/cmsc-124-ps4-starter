@@ -1,8 +1,12 @@
 <!--no-pdf-->
-# CMSC 124 Problem Set 4 Starter
+# CMSC 124 Problem Set 4
 
-This repository holds the Prolog prediction corpus and the rule stubs for
-Problem Set 4. The assignment manual defines the work and the submission rules.
+This repository holds the Prolog prediction corpus, our predictions and reasoning, completed family, list, and graph predicates, and analysis of search and runtime stack behavior for Problem Set 4. The assignment manual defines the work and the submission rules.
+
+## Members
+
+- **Jared Ramyll D. Chua** — [@ultramarine23](https://github.com/ultramarine23)
+- **Ma. Christie Jude L. Tarre** — [@cjtarre](https://github.com/cjtarre)
 
 ## Layout
 

@@ -38,6 +38,9 @@ The query parent(tom, X) is asking the program to find values of X such that par
 
 parent(tom, bob) is directly true in the list of facts, thus we get true as the first answer. Since this fact is only stated once, when “;” is pressed to get the second answer, it will return false as there are no other facts that state parent(tom, bob). Thus, the count is 1.
 
+## Correction for P02
+I predicted second as false. However, it seems that upon redoing a check, it just returns none instead of false. I was under the impression that "false" would be the output upon the first failed check.
+
 ## P03
 
 This asks to find an X such that parent(X, tom) is supported by the facts. However, there is no fact that has tom in the second argument, so the first field is false. Getting a second answer from here will then lead to none due to the false already being encountered.
@@ -69,6 +72,9 @@ ancestor_r has the recursive rule first, so ancestor_r(tom,X) gets to sue first 
 ## P10
 
 The base case is tried first which gives us X=pat. There aren’t any direct parents after pat, so we try the recursive case, which actually gets us X=tom first because when it expands into parent(A,P), ancestor(P,pat), it actually tests the pairs for A,P starting with tom,liz first. This leaves X=bob as the last proof to be found and a count of 3.
+
+## Correction for P10
+i just mistyped in predictions forgive me sir T^T (looking at the trace, it seems my reasoning was about right)
 
 ## P11
 

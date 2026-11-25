@@ -57,7 +57,7 @@ rev([H|T], R) :-
 last_of([H|T], X) :-
     T = [],
     H = X.
-last_of([H|T], X) :-
+last_of([_|T], X) :-
     last_of(T, X).
 
 %%% R3 -- the graph.
